@@ -467,26 +467,6 @@
         ]
       },
       "path": "~/Effects"
-    },
-    {
-      "name": "DoruDoruNoMiPlayerFinishesUsingItem",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "doru_doru_no_mi_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beloruslubitbabah/procedures/DoruDoruNoMiPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],

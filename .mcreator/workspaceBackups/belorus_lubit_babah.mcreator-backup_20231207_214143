@@ -438,55 +438,6 @@
         ]
       },
       "path": "~/Effects"
-    },
-    {
-      "name": "DoruDoruNoMi",
-      "type": "item",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "doru_doru_no_mi",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/belorus_lubit_babah/models/item/doru_doru_no_mi.json",
-          "src/main/java/net/mcreator/beloruslubitbabah/item/DoruDoruNoMiItem.java"
-        ]
-      },
-      "path": "~/Devil Fruits"
-    },
-    {
-      "name": "EatenDoruDoruNoMi",
-      "type": "potioneffect",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eaten_doru_doru_no_mi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beloruslubitbabah/potion/EatenDoruDoruNoMiMobEffect.java"
-        ]
-      },
-      "path": "~/Effects"
-    },
-    {
-      "name": "DoruDoruNoMiPlayerFinishesUsingItem",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "doru_doru_no_mi_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beloruslubitbabah/procedures/DoruDoruNoMiPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -511,7 +462,6 @@
   "language_map": {
     "ru_ru": {
       "subtitles.gura_air-break": "",
-      "effect.belorus_lubit_babah.eaten_doru_doru_no_mi": "Doru Doru No Mi",
       "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
       "effect.belorus_lubit_babah.x_ability_cooldown": "Перезарядка \"X\" способности",
       "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
@@ -524,12 +474,10 @@
       "item.belorus_lubit_babah.gura_gura_no_mi": "Фрукт Тремор-Тремор",
       "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
       "itemGroup.tabone_piece_fruits": "Дьявольские фрукты",
-      "subtitles.gura_fastair-break": "",
-      "item.belorus_lubit_babah.doru_doru_no_mi": "Doru Doru No Mi"
+      "subtitles.gura_fastair-break": ""
     },
     "en_us": {
       "subtitles.gura_air-break": "",
-      "effect.belorus_lubit_babah.eaten_doru_doru_no_mi": "Doru Doru No Mi",
       "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
       "effect.belorus_lubit_babah.x_ability_cooldown": "X Ability Cooldown",
       "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
@@ -542,8 +490,7 @@
       "item.belorus_lubit_babah.gura_gura_no_mi": "Gura Gura No Mi",
       "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
       "itemGroup.tabone_piece_fruits": "One Piece Fruits",
-      "subtitles.gura_fastair-break": "",
-      "item.belorus_lubit_babah.doru_doru_no_mi": "Doru Doru No Mi"
+      "subtitles.gura_fastair-break": ""
     }
   },
   "foldersRoot": {

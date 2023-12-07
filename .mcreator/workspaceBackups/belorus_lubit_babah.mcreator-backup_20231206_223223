@@ -1,0 +1,239 @@
+{
+  "mod_elements": [
+    {
+      "name": "OnePieceFruits",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_piece_fruits",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GuraGuraNoMiPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gura_gura_no_mi_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/procedures/GuraGuraNoMiPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuraGuraNoMi",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gura_gura_no_mi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/item/GuraGuraNoMiItem.java",
+          "src/main/resources/assets/belorus_lubit_babah/models/item/gura_gura_no_mi.json"
+        ]
+      }
+    },
+    {
+      "name": "EatenGuraGuraNoMiEffectExpires",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eaten_gura_gura_no_mi_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/procedures/EatenGuraGuraNoMiEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EatenGuraGuraNoMi",
+      "type": "potioneffect",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eaten_gura_gura_no_mi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/potion/EatenGuraGuraNoMiMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "StunOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/procedures/StunOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stun",
+      "type": "potioneffect",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/potion/StunMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Seashaking",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seashaking",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/network/SeashakingMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SeashakingOnKeyPressed",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seashaking_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/procedures/SeashakingOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZAbilityCooldown",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_ability_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/potion/ZAbilityCooldownMobEffect.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "gura_air-break",
+      "files": [
+        "whitebeard_s_devil_fruit_power_one_piece_gura_gura_sound_effect_for_editing_-2900_7anoptf"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "subtitles.gura_air-break": "",
+      "key.belorus_lubit_babah.seashaking": "First Fruit Ability",
+      "effect.belorus_lubit_babah.stun": "Оглушен",
+      "effect.belorus_lubit_babah.z_ability_cooldown": "First Ability is on cooldown",
+      "item.belorus_lubit_babah.gura_gura_no_mi": "Фрукт Тремор-Тремор",
+      "itemGroup.tabone_piece_fruits": "Дьявольские фрукты",
+      "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Использует Тремор-Тремор"
+    },
+    "en_us": {
+      "subtitles.gura_air-break": "",
+      "key.belorus_lubit_babah.seashaking": "First Fruit Ability",
+      "effect.belorus_lubit_babah.stun": "Stunned",
+      "effect.belorus_lubit_babah.z_ability_cooldown": "Z Ability Cooldown",
+      "item.belorus_lubit_babah.gura_gura_no_mi": "Gura Gura No Mi",
+      "itemGroup.tabone_piece_fruits": "One Piece Fruits",
+      "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Gura Gura No Mi"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "belorus_lubit_babah",
+    "modName": "belorus_lubit_babah",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.beloruslubitbabah",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

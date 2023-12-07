@@ -1,5 +1,6 @@
 {
   "subtitles.gura_air-break": "",
+  "effect.belorus_lubit_babah.eaten_doru_doru_no_mi": "Doru Doru No Mi",
   "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
   "effect.belorus_lubit_babah.x_ability_cooldown": "X Ability Cooldown",
   "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
@@ -12,5 +13,6 @@
   "item.belorus_lubit_babah.gura_gura_no_mi": "Gura Gura No Mi",
   "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
   "itemGroup.tabone_piece_fruits": "One Piece Fruits",
-  "subtitles.gura_fastair-break": ""
+  "subtitles.gura_fastair-break": "",
+  "item.belorus_lubit_babah.doru_doru_no_mi": "Doru Doru No Mi"
 }

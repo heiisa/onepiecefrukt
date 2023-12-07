@@ -50,7 +50,7 @@
     {
       "name": "GuraGuraNoMi",
       "type": "item",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gura_gura_no_mi",
@@ -133,7 +133,7 @@
     {
       "name": "Seashaking",
       "type": "keybind",
-      "sortid": 9,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seashaking",
@@ -352,6 +352,92 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "ThirdFruitAbility",
+      "type": "keybind",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "third_fruit_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/network/ThirdFruitAbilityMessage.java"
+        ]
+      },
+      "path": "~/Keybinds"
+    },
+    {
+      "name": "CAbilityCooldown",
+      "type": "potioneffect",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_ability_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/potion/CAbilityCooldownMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ThirdFruitAbilityOnKeyPressed",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "third_fruit_ability_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/procedures/ThirdFruitAbilityOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EarthshakingOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthshaking_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/procedures/EarthshakingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Earthshaking",
+      "type": "potioneffect",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthshaking",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beloruslubitbabah/potion/EarthshakingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
     }
   ],
   "variable_elements": [],
@@ -376,28 +462,34 @@
   "language_map": {
     "ru_ru": {
       "subtitles.gura_air-break": "",
+      "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
+      "effect.belorus_lubit_babah.x_ability_cooldown": "Перезарядка \"X\" способности",
+      "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
+      "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Использует Тремор-Тремор",
       "key.belorus_lubit_babah.seashaking": "Первичная фруктовая способность",
       "effect.belorus_lubit_babah.stun": "Оглушение",
       "key.belorus_lubit_babah.second_fruit_ability": "Вторичная фруктовая способность",
       "item.belorus_lubit_babah.charged_x_hand_gura": "Заряженная рука",
       "effect.belorus_lubit_babah.z_ability_cooldown": "Перезарядка \"Z\" способности",
-      "effect.belorus_lubit_babah.x_ability_cooldown": "Перезарядка \"X\" способности",
       "item.belorus_lubit_babah.gura_gura_no_mi": "Фрукт Тремор-Тремор",
+      "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
       "itemGroup.tabone_piece_fruits": "Дьявольские фрукты",
-      "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Использует Тремор-Тремор",
       "subtitles.gura_fastair-break": ""
     },
     "en_us": {
       "subtitles.gura_air-break": "",
+      "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
+      "effect.belorus_lubit_babah.x_ability_cooldown": "X Ability Cooldown",
+      "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
+      "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Gura Gura No Mi",
       "key.belorus_lubit_babah.seashaking": "First Fruit Ability",
       "effect.belorus_lubit_babah.stun": "Stunned",
       "key.belorus_lubit_babah.second_fruit_ability": "Second Fruit Ability",
       "item.belorus_lubit_babah.charged_x_hand_gura": "Charged Hand",
       "effect.belorus_lubit_babah.z_ability_cooldown": "Z Ability Cooldown",
-      "effect.belorus_lubit_babah.x_ability_cooldown": "X Ability Cooldown",
       "item.belorus_lubit_babah.gura_gura_no_mi": "Gura Gura No Mi",
+      "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
       "itemGroup.tabone_piece_fruits": "One Piece Fruits",
-      "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Gura Gura No Mi",
       "subtitles.gura_fastair-break": ""
     }
   },

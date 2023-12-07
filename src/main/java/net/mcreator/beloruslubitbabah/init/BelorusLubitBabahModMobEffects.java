@@ -14,6 +14,7 @@ import net.mcreator.beloruslubitbabah.potion.ZAbilityCooldownMobEffect;
 import net.mcreator.beloruslubitbabah.potion.XAbilityCooldownMobEffect;
 import net.mcreator.beloruslubitbabah.potion.StunMobEffect;
 import net.mcreator.beloruslubitbabah.potion.EatenGuraGuraNoMiMobEffect;
+import net.mcreator.beloruslubitbabah.potion.EatenDoruDoruNoMiMobEffect;
 import net.mcreator.beloruslubitbabah.potion.EarthshakingMobEffect;
 import net.mcreator.beloruslubitbabah.potion.CAbilityCooldownMobEffect;
 import net.mcreator.beloruslubitbabah.BelorusLubitBabahMod;
@@ -26,4 +27,5 @@ public class BelorusLubitBabahModMobEffects {
 	public static final RegistryObject<MobEffect> X_ABILITY_COOLDOWN = REGISTRY.register("x_ability_cooldown", () -> new XAbilityCooldownMobEffect());
 	public static final RegistryObject<MobEffect> C_ABILITY_COOLDOWN = REGISTRY.register("c_ability_cooldown", () -> new CAbilityCooldownMobEffect());
 	public static final RegistryObject<MobEffect> EARTHSHAKING = REGISTRY.register("earthshaking", () -> new EarthshakingMobEffect());
+	public static final RegistryObject<MobEffect> EATEN_DORU_DORU_NO_MI = REGISTRY.register("eaten_doru_doru_no_mi", () -> new EatenDoruDoruNoMiMobEffect());
 }

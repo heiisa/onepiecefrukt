@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "gura_fastair-break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "belorus_lubit_babah:y2mate.mx-gura-gura-no-mi-_crack_-sound-effect-_320-kbps_",
+        "stream": false
+      }
+    ]
   }
 }

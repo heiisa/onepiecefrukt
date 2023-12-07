@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texturemain",
+        "1": "texturesecondary"
+      },
+      "name": "default"
+    }
+  }
+}

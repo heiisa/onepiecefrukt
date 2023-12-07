@@ -12,6 +12,6 @@ public class StunOnEffectActiveTickProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 255, (false), (false)));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 10, 128, (false), (false)));
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 10, 129, (false), (false)));
 	}
 }

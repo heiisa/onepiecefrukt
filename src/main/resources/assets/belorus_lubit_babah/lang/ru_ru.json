@@ -1,9 +1,16 @@
 {
   "subtitles.gura_air-break": "",
-  "key.belorus_lubit_babah.seashaking": "First Fruit Ability",
-  "effect.belorus_lubit_babah.stun": "Оглушен",
-  "effect.belorus_lubit_babah.z_ability_cooldown": "First Ability is on cooldown",
+  "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
+  "effect.belorus_lubit_babah.x_ability_cooldown": "Перезарядка \"X\" способности",
+  "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
+  "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Использует Тремор-Тремор",
+  "key.belorus_lubit_babah.seashaking": "Первичная фруктовая способность",
+  "effect.belorus_lubit_babah.stun": "Оглушение",
+  "key.belorus_lubit_babah.second_fruit_ability": "Вторичная фруктовая способность",
+  "item.belorus_lubit_babah.charged_x_hand_gura": "Заряженная рука",
+  "effect.belorus_lubit_babah.z_ability_cooldown": "Перезарядка \"Z\" способности",
   "item.belorus_lubit_babah.gura_gura_no_mi": "Фрукт Тремор-Тремор",
+  "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
   "itemGroup.tabone_piece_fruits": "Дьявольские фрукты",
-  "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Использует Тремор-Тремор"
+  "subtitles.gura_fastair-break": ""
 }

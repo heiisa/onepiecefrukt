@@ -1,0 +1,8 @@
+{
+  "parent": "belorus_lubit_babah:custom/model",
+  "textures": {
+    "0": "belorus_lubit_babah:blocks/texturemain",
+    "1": "belorus_lubit_babah:blocks/texturesecondary",
+    "particle": "belorus_lubit_babah:items/gurachargedhand"
+  }
+}

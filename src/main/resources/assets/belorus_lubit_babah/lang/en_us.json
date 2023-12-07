@@ -1,9 +1,16 @@
 {
   "subtitles.gura_air-break": "",
+  "key.belorus_lubit_babah.third_fruit_ability": "Third Fruit Ability",
+  "effect.belorus_lubit_babah.x_ability_cooldown": "X Ability Cooldown",
+  "effect.belorus_lubit_babah.c_ability_cooldown": "C Ability Cooldown",
+  "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Gura Gura No Mi",
   "key.belorus_lubit_babah.seashaking": "First Fruit Ability",
   "effect.belorus_lubit_babah.stun": "Stunned",
+  "key.belorus_lubit_babah.second_fruit_ability": "Second Fruit Ability",
+  "item.belorus_lubit_babah.charged_x_hand_gura": "Charged Hand",
   "effect.belorus_lubit_babah.z_ability_cooldown": "Z Ability Cooldown",
   "item.belorus_lubit_babah.gura_gura_no_mi": "Gura Gura No Mi",
+  "effect.belorus_lubit_babah.earthshaking": "Earthshaking",
   "itemGroup.tabone_piece_fruits": "One Piece Fruits",
-  "effect.belorus_lubit_babah.eaten_gura_gura_no_mi": "Gura Gura No Mi"
+  "subtitles.gura_fastair-break": ""
 }
